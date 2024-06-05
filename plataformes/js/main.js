@@ -120,7 +120,7 @@ function collectCoin(sprite, tile) {
 
 function fi_joc(){
     localStorage.setItem(score, JSON.stringify(score));
-    // window.location.href =      POSAR EL MENU O EL QUE SIGUI
+    window.location.href = "../index.html"
     _velocity=0;
     
 }
