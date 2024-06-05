@@ -2,10 +2,47 @@
 <html>
     <head>
         <script src="./Javascript/menu_js.js"></script>
+        <link rel="stylesheet" href="./CSS/menu_css.css">
         <title>Les aventures d'un alien</title>
     </head>
     <body>
         <h1 id="title">Menu</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+            <!-- Background -->
+            <rect width="100%" height="100%" fill="#ddd" />
+          
+            <!-- Rombe gran negre -->
+            <polygon points="125,250 200,180 125,110 50,180" fill="#000"  />
+            
+            <!-- Rombe gris -->
+            <polygon points="125,20 160,165 125,200 90,165" fill="#444" stroke="#fff" stroke-width="4"/>
+            
+            <!-- Cara cangur -->
+            <polygon points="125,60 160,80  170,120  145,130 135,150 115,150 105,130 80,120 90,80" fill="#fff" stroke="#000" stroke-width="4" />
+            <!-- Nas cangur -->
+            <polygon points="125,110 135,120 140,150 130,155 120,155 110,150 115,120" fill="#fff" stroke="#000" stroke-width="4" />
+            <!-- Triangle petit negre Nas-->
+            <polygon points="137,140 125,155 113,140" fill="#000" />
+           <!-- Rombe gran Barret -->
+            <polygon points="125,55 230,85 125,95 20,85" fill="#000" />
+           <!-- Ulls -->
+            <polygon points="110,105 110,115 98,110 95,99" fill="#f00"  stroke="#000" stroke-width="4"  />
+            <polygon points="140,105 140,115 152,110 155,99" fill="#f00"  stroke="#000" stroke-width="4"  />
+             <!-- Orelles -->
+           <polygon points="90,80 105,70 95,40 60,15 65,60" fill="#fff" stroke="#000" stroke-width="4" />
+            <polygon points="92,75 97,70 90,45 64,22 70,58" fill="#000"/>
+              <polygon points="160,80 145,70 155,40 190,15 185,60" fill="#fff" stroke="#000" stroke-width="4" />
+            <polygon points="158,75 153,70 160,45 186,22 180,58" fill="#000"/>
+            <animateTransform
+              attributeName="transform"
+              begin="0s"
+              dur="10s"
+              type="rotate"
+              from="0 85 85"
+              to="360 85 85"
+              repeatCount="indefinite" />
+        </svg>
+          
         <button id="play" class="center">Jugar</button>
     </body>
 </html>
