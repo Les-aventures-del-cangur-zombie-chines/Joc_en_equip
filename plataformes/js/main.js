@@ -33,7 +33,7 @@ function preload() {
     // tiles in spritesheet 
     this.load.spritesheet('tiles', '../assets/tiles.png', {frameWidth: 70, frameHeight: 70});
     // simple coin image
-    this.load.image('coin', '../assets/coinGold.png');
+    this.load.image('coin', '/Joc_en_equip/plataformes/assets/coinGold.png');
     // player animations
     this.load.atlas('player', '../assets/player.png', '../assets/player.json');
 }
