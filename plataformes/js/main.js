@@ -29,7 +29,7 @@ var _velocity = 250;
 
 function preload() {
     // map made with Tiled in JSON format
-    this.load.tilemapTiledJSON('map', '../assets/map.json');
+    this.load.tilemapTiledJSON('map', '../../plataformes/assets/map.json');
     // tiles in spritesheet 
     this.load.spritesheet('tiles', '../assets/tiles.png', {frameWidth: 70, frameHeight: 70});
     // simple coin image
